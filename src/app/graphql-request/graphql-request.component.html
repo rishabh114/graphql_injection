@@ -1,0 +1,7 @@
+<div>
+    <h2>GraphQL Request</h2>
+    <textarea [(ngModel)]="query" placeholder="Enter GraphQL query"></textarea>
+    <button (click)="executeQuery()">Execute Query</button>
+    <pre>{{ result | json }}</pre>
+  </div>
+  
